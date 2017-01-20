@@ -4,10 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 import { MyFeatureArea1Module } from './my-feature-area1/my-feature-area1.module';
-
 import { AppComponent } from './app.component';
 import { MyStartPageComponent } from './my-start-page/my-start-page.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { MyNewServiceService } from './my-new-service.service'
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     MyFeatureArea1Module,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [MyNewServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
