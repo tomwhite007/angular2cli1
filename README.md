@@ -199,6 +199,21 @@ const routes: Routes = [
   { path: 'feature1page2', component: MyFeature1Page2Component }  // *** inserted line
 ];
 ```
+Now to complete this whole exercise, add nav links for moving around our app in app.component.html...
+
+```html
+<h1>
+  {{title}}
+</h1>
+
+<nav>
+    <a routerLink="/home" routerLinkActive="active">home</a>
+    <a routerLink="/feature1" routerLinkActive="active">feature1</a>
+    <a routerLink="/feature1page2" routerLinkActive="active">feature1page2</a>
+</nav>
+
+<router-outlet></router-outlet>
+```
 
 ## Deployment
 This is another really cool CLI bit.
