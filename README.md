@@ -20,7 +20,7 @@ I estimate less than 1 hour to run through this from start to finish.
 
 The final code is in the "app" folder.
 
-I hope by sharing it, others apart from my [meetup group](https://www.meetup.com/Brighton-Worthing-Angular2-Meetup/) can benifit.
+I hope by sharing it, others apart from my [meetup group](https://www.meetup.com/Brighton-Worthing-Angular2-Meetup/) can benefit.
 
 ## Prerequisites
 
@@ -127,7 +127,7 @@ const routes: Routes = [
 
 ## Services
 Services - (like Angular 1)
-* are the best place to put globall variables / objects / functions
+* are the best place to put global variables / objects / functions
 * are the best place to talk to servers with http, etc.
 ```
 ng generate service my-new-service
