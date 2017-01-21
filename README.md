@@ -12,8 +12,15 @@ My inspiration for creating this document comes from...
 > The Ultimate Angular CLI Reference Guide  
 > https://www.sitepoint.com/ultimate-angular-cli-reference 
 
-...well worth a read, but the routing stuff in it is currently out of date.
+...well worth a read, but the routing stuff in it is currently out of date (in my opinion).
 
+This guide is designed for a presenter to lead you through, or assumes you've done a little bit of Angular 2, TypeScript and Visual Studio Code.
+
+I estimate less than 1 hour to run through this from start to finish. 
+
+The final code is in the "app" folder.
+
+I hope by sharing it, others apart from my [meetup group](https://www.meetup.com/Brighton-Worthing-Angular2-Meetup/) can benifit.
 
 ## Prerequisites
 
@@ -147,6 +154,8 @@ import { MyNewServiceService } from './my-new-service.service'  // *** inserted 
   bootstrap: [AppComponent]
 })
 ```
+I'm not going to get into wiring up services inside components, because this exercise is about demonstrating the power of the CLI to do most of the project startup boilerplate for you - and it doesn't help you there. 
+But if you want more, you can go here: [Angular Docs, Services](https://angular.io/docs/ts/latest/tutorial/toh-pt4.html)
 
 ## Create a module 
 
